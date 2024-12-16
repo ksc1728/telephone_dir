@@ -7,7 +7,7 @@ const app = express();
 const Task = require('./model');
 
 
-mongoose.connect("mongodb+srv://deposittracker:12345@clusterdummy.z7sma.mongodb.net/test", {
+mongoose.connect("mongodb+srv://deposittracker:<>@clusterdummy.z7sma.mongodb.net/test", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
